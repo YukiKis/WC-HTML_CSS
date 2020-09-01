@@ -1,3 +1,4 @@
+/* reset css */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,19 @@
 .header {
   width: 100%;
   height: 120px;
-  background-color: #ff0000;
+  background-color: red;
+}
+
+.header .header-top {
+  width: 100%;
+  height: 70px;
+  background-color: hotpink;
+}
+
+.header .header-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: pink;
 }
 
 .main-visual {
@@ -16,14 +29,34 @@
   background-color: orange;
 }
 
+.main-visual .main-visual-content {
+  width: 350px;
+  height: 300px;
+  background-color: gold;
+}
+
 .main {
-  width: 100%;
+  width: 840px;
+  margin: 0 auto;
   height: 1400px;
-  background-color: #008000;
+  display: flex;
+  justify-content: center;
+}
+
+.main .blog {
+  width: 600px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.main .sidebar {
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
   width: 100%;
   height: 120px;
-  background-color: #0000ff;
+  background-color: blue;
 }
