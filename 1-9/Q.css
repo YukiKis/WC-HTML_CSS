@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.position {
+  position: relative;
+}
+
+.position .social {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+.position .social i {
+  font-size: 32px;
+}
